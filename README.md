@@ -1,4 +1,4 @@
-<a href="./LICENSE">
+<a href="./LICENSE.md">
 <img src="./images/cc0-public-domain.png" alt="CC0 or Public Domain"
 align="right" width="10%" height="auto"/>
 </a>
