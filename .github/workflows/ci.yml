@@ -1,4 +1,4 @@
-name: Build with Maven directly
+name: build
 
 env:
   OWASP_NVD_API_KEY: ${{ secrets.OWASP_NVD_API_KEY }}
@@ -16,7 +16,7 @@ on:
 
 jobs:
   build:
-    name: Builds and tests
+    name: Build and test
     runs-on: ubuntu-latest
 
     steps:
