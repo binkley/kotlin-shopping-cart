@@ -7,7 +7,7 @@ align="right" width="10%" height="auto"/>
 
 [![Maven build](https://github.com/binkley/kotlin-shopping-cart/actions/workflows/ci.yml/badge.svg)](https://github.com/binkley/kotlin-shopping-cart/actions)
 [![vulnerabilities](https://snyk.io/test/github/binkley/kotlin-shopping-cart/badge.svg)](https://snyk.io/test/github/binkley/kotlin-shopping-cart)
-[![coverage](https://github.com/binkley/kotlin-shopping-cart/raw/master/images/jacoco.svg)](https://github.com/binkley/kotlin-shopping-cart/actions/workflows/ci.yml)
+[![coverage](.github/badges/jacoco.svg)](https://github.com/binkley/kotlin-shopping-cart/actions/workflows/ci.yml)
 [![pull requests](https://img.shields.io/github/issues-pr/binkley/kotlin-shopping-cart.svg)](https://github.com/binkley/kotlin-shopping-cart/pulls)
 [![issues](https://img.shields.io/github/issues/binkley/kotlin-shopping-cart.svg)](https://github.com/binkley/kotlin-shopping-cart/issues/)
 [![license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](http://unlicense.org/)
