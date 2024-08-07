@@ -4,10 +4,13 @@ import io.kotest.matchers.shouldBe
 import io.kotest.matchers.shouldNotBe
 import org.junit.jupiter.api.Test
 
-val FLOOR_WAX_UPC = "00123456789012"
+val FLOOR_WAX_UPC = UPC("00123456789012")
 val FLOOR_WAX = ShoppingCartItem(upc = FLOOR_WAX_UPC)
 
 internal class ShoppingCartItemTest {
+    private operator fun UPC.plus(suffix: String): UPC =
+        UPC(this.toString() + suffix)
+
     @Test
     fun `items should have UPCs`() {
         val item = FLOOR_WAX

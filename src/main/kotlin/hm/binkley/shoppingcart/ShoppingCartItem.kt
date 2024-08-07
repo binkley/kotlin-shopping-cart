@@ -10,10 +10,11 @@ package hm.binkley.shoppingcart
  * - Price &mdash; pricing changes frequently, and across locations, regions,
  *    and countries.
  *    Best to defer to another service to price any given UPC product.
+ *
+ * @see Pricer
  */
 data class ShoppingCartItem(
-    /** Note that UPC can also be represented as either a decimal or a long. */
-    val upc: String,
+    val upc: UPC,
 ) {
     /**
      * Description may vary by store and country, but if the same UPC barcode,
