@@ -11,7 +11,7 @@ package hm.binkley.shoppingcart
  *    and countries.
  *    Best to defer to another service to price any given UPC product.
  */
-public data class ShoppingCartItem(
+data class ShoppingCartItem(
     /** Note that UPC can also be represented as either a decimal or a long. */
     val upc: String,
 ) {

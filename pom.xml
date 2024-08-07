@@ -212,10 +212,9 @@
                 <configuration>
                     <args>
                         <arg>-Werror</arg>
-                        <arg>-Xexplicit-api=strict</arg>
                     </args>
                     <javaParameters>true</javaParameters>
-                    <languageVersion>1.8</languageVersion>
+                    <languageVersion>2.0</languageVersion>
                 </configuration>
                 <executions>
                     <execution>

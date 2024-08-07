@@ -4,8 +4,8 @@ import io.kotest.matchers.shouldBe
 import io.kotest.matchers.shouldNotBe
 import org.junit.jupiter.api.Test
 
-private val FLOOR_WAX_UPC = "00123456789012"
-private val FLOOR_WAX = ShoppingCartItem(upc = FLOOR_WAX_UPC)
+val FLOOR_WAX_UPC = "00123456789012"
+val FLOOR_WAX = ShoppingCartItem(upc = FLOOR_WAX_UPC)
 
 internal class ShoppingCartItemTest {
     @Test
