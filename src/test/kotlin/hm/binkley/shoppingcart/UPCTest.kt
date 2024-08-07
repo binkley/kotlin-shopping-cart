@@ -5,8 +5,8 @@ import io.kotest.matchers.shouldNotBe
 import io.kotest.matchers.string.shouldContain
 import org.junit.jupiter.api.Test
 
-val FLOOR_WAX_UPC_CODE = "012345678905"
-val DIFFERENT_UPC_CODE = "065100004327"
+private val FLOOR_WAX_UPC_CODE = "012345678905"
+private val DIFFERENT_UPC_CODE = "065100004327"
 
 internal class UPCTest {
     @Test
