@@ -5,6 +5,14 @@ align="right" width="10%" height="auto"/>
 
 # Kotlin Shopping Cart
 
+[![Build](https://github.com/binkley/modern-java-practices/actions/workflows/ci-earthly-maven.yml/badge.svg)](https://github.com/binkley/modern-java-practices/actions)
+[![CodeQL](https://github.com/binkley/modern-java-practices/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/binkley/modern-java-practices/actions/workflows/github-code-scanning/codeql)
+[![vulnerabilities](https://snyk.io/test/github/binkley/modern-java-practices/badge.svg)](https://snyk.io/test/github/binkley/modern-java-practices)
+[![coverage](https://github.com/binkley/modern-java-practices/raw/master/images/jacoco.svg)](https://github.com/binkley/modern-java-practices/actions/workflows/ci.yml)
+[![pull requests](https://img.shields.io/github/issues-pr/binkley/modern-java-practices.svg)](https://github.com/binkley/modern-java-practices/pulls)
+[![issues](https://img.shields.io/github/issues/binkley/modern-java-practices.svg)](https://github.com/binkley/modern-java-practices/issues/)
+[![license](https://img.shields.io/badge/license-Public%20Domain-blue.svg)](http://unlicense.org/)
+
 [![Maven build](https://github.com/binkley/kotlin-shopping-cart/actions/workflows/ci.yml/badge.svg)](https://github.com/binkley/kotlin-shopping-cart/actions)
 [![vulnerabilities](https://snyk.io/test/github/binkley/kotlin-shopping-cart/badge.svg)](https://snyk.io/test/github/binkley/kotlin-shopping-cart)
 [![coverage](.github/badges/jacoco.svg)](https://github.com/binkley/kotlin-shopping-cart/actions/workflows/ci.yml)
