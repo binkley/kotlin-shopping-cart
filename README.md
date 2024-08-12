@@ -16,11 +16,8 @@ Example code for typesafe shopping carts in Kotlin.
 
 ## License
 
-This work is dedicated to the Public Domain.
-In countries where Public Domain is restricted, the Creative Commons 0
-Universal license applies.
-See the [license](LICENSE.md) which provides text for both _Public Domain_ and
-_Creative Commons 0 Universal_.
+This work is [dedicated](LICENSE.md) to the Public Domain under the Creative
+Commons Zero 1.0 Universal license.
 
 ## Implementation
 
