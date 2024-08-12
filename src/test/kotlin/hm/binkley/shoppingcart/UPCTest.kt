@@ -5,37 +5,40 @@ import io.kotest.assertions.throwables.shouldThrow
 import io.kotest.matchers.string.shouldContain
 import org.junit.jupiter.api.Test
 
-private val FLOOR_WAX_UPC_CODE = "012345678905"
+private val KNOWN_VALID_UPC_CODE_FOR_TESTING = "012345678905"
 
 internal class UPCTest {
     @Test
-    fun `should accept a valid UCP code`() {
+    fun `should accept a valid UPC code`() {
         shouldNotThrow<IllegalArgumentException> {
-            UPC("012345678905")
+            UPC(KNOWN_VALID_UPC_CODE_FOR_TESTING)
         }
     }
 
     @Test
     fun `should helpfully complain if not a 12-digit code`() {
-        val invalid10DigitCode = "1234567890"
+        // Skip the leading 0
+        val invalidBecauseOf11Digits =
+            KNOWN_VALID_UPC_CODE_FOR_TESTING.substring(1)
 
         val e =
             shouldThrow<IllegalArgumentException> {
-                UPC(invalid10DigitCode)
+                UPC(invalidBecauseOf11Digits)
             }
 
-        e.message.shouldContain(invalid10DigitCode)
+        e.message.shouldContain(invalidBecauseOf11Digits)
     }
 
     @Test
     fun `should helpfully complain if checksum is wrong`() {
-        val invalidChecksumCode = "012345678907" // 7 != 5
-
+        // Checksum last digit: 7 != 5
+        val invalidBecauseOfChecksum =
+            KNOWN_VALID_UPC_CODE_FOR_TESTING.replaceRange(11, 12, "7")
         val e =
             shouldThrow<IllegalArgumentException> {
-                UPC(invalidChecksumCode)
+                UPC(invalidBecauseOfChecksum)
             }
 
-        e.message.shouldContain(invalidChecksumCode)
+        e.message.shouldContain(invalidBecauseOfChecksum)
     }
 }
