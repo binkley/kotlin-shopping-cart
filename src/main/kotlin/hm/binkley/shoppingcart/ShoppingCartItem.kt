@@ -1,7 +1,9 @@
 package hm.binkley.shoppingcart
 
 /**
- * A shopping cart item should only be a UPC.
+ * A shopping cart item: a user view of items that shoppers add/remove.
+ * Some UPC codes need additional information such as quantity/weight to
+ * process further, and other systems likely aggregate.
  *
  * Other possible data values, and why they should be outside the scope:
  * - Description &mdash; it is tempting to include this; however, the same
