@@ -1,5 +1,5 @@
 <a href="./LICENSE.md">
-<img src="./images/cc0-public-domain.png" alt="CC0 or Public Domain"
+<img src="./images/cc0.svg" alt="Creative Commons 0 1.0"
 align="right" width="10%" height="auto"/>
 </a>
 
