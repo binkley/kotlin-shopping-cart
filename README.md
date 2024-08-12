@@ -23,4 +23,12 @@ Commons Zero 1.0 Universal license.
 
 Items in a shopping cart are tracked by their UPC, not their locale-specific
 descriptions or local market prices.
-See <https://www.barcodefaq.com/1d/upc-ean/#GTIN_Compliance> for examples.
+See <https://www.barcodefaq.com/1d/upc-ean/#GTIN_Compliance> for examples of
+UPC codes.
+
+It is challenging to provide a _general solution_ that covers:
+- Physical shopping carts, such as shoppers adding multiple of an item, or
+  adding multiple of items that are measured by weight/volume.
+  Shoppers want to add/remove the same items.
+- Scanning systems or online systems want to track subtotals for multiples.
+  These are interested in subtotals of counts or weight/volumes.
