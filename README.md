@@ -5,12 +5,12 @@ align="right" width="10%" height="auto"/>
 
 # Kotlin Shopping Cart
 
-[![Build](https://github.com/binkley/modern-java-practices/actions/workflows/ci-earthly-maven.yml/badge.svg)](https://github.com/binkley/modern-java-practices/actions)
-[![CodeQL](https://github.com/binkley/modern-java-practices/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/binkley/modern-java-practices/actions/workflows/github-code-scanning/codeql)
-[![vulnerabilities](https://snyk.io/test/github/binkley/modern-java-practices/badge.svg)](https://snyk.io/test/github/binkley/modern-java-practices)
-[![coverage](https://github.com/binkley/modern-java-practices/raw/master/images/jacoco.svg)](https://github.com/binkley/modern-java-practices/actions/workflows/ci.yml)
-[![pull requests](https://img.shields.io/github/issues-pr/binkley/modern-java-practices.svg)](https://github.com/binkley/modern-java-practices/pulls)
-[![issues](https://img.shields.io/github/issues/binkley/modern-java-practices.svg)](https://github.com/binkley/modern-java-practices/issues/)
+[![Build](https://github.com/binkley/kotin-shopping-cart/actions/workflows/ci-earthly-maven.yml/badge.svg)](https://github.com/binkley/kotin-shopping-cart/actions)
+[![CodeQL](https://github.com/binkley/kotin-shopping-cart/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/binkley/kotin-shopping-cart/actions/workflows/github-code-scanning/codeql)
+[![vulnerabilities](https://snyk.io/test/github/binkley/kotin-shopping-cart/badge.svg)](https://snyk.io/test/github/binkley/kotin-shopping-cart)
+[![coverage](https://github.com/binkley/kotin-shopping-cart/raw/master/images/jacoco.svg)](https://github.com/binkley/kotin-shopping-cart/actions/workflows/ci.yml)
+[![pull requests](https://img.shields.io/github/issues-pr/binkley/kotin-shopping-cart.svg)](https://github.com/binkley/kotin-shopping-cart/pulls)
+[![issues](https://img.shields.io/github/issues/binkley/kotin-shopping-cart.svg)](https://github.com/binkley/kotin-shopping-cart/issues/)
 [![license](https://img.shields.io/badge/License-CC0%201.0-green.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 Example code for typesafe shopping carts in Kotlin.
