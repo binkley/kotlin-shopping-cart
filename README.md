@@ -5,7 +5,7 @@ align="right" width="10%" height="auto"/>
 
 # Kotlin Shopping Cart
 
-[![Build](https://github.com/binkley/kotin-shopping-cart/actions/workflows/build.yml/badge.svg)](https://github.com/binkley/kotin-shopping-cart/actions)
+[![Build](https://github.com/binkley/kotin-shopping-cart/actions/workflows/ci.yml/badge.svg)](https://github.com/binkley/kotin-shopping-cart/actions)
 [![vulnerabilities](https://snyk.io/test/github/binkley/kotin-shopping-cart/badge.svg)](https://snyk.io/test/github/binkley/kotin-shopping-cart)
 [![coverage](https://github.com/binkley/kotin-shopping-cart/raw/master/images/jacoco.svg)](https://github.com/binkley/kotin-shopping-cart/actions/workflows/ci.yml)
 [![pull requests](https://img.shields.io/github/issues-pr/binkley/kotin-shopping-cart.svg)](https://github.com/binkley/kotin-shopping-cart/pulls)
