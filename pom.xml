@@ -51,7 +51,7 @@
         <coverage.instructions>100</coverage.instructions>
         <!-- TODO: Raise mutation coverage: See UPC value type -->
         <coverage.mutation>83</coverage.mutation>
-        <dependency-check-maven.version>10.0.3</dependency-check-maven.version>
+        <dependency-check-maven.version>10.0.4</dependency-check-maven.version>
         <detekt-maven-plugin.version>1.23.5</detekt-maven-plugin.version>
         <jacoco-maven-plugin.version>0.8.12</jacoco-maven-plugin.version>
         <java.charset>UTF-8</java.charset>
